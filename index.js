@@ -21,9 +21,8 @@ else
 return "Good Evening";
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(){
+function displayMessage(msg){
   let h = document.getElementById("greeting");
-  let t = document.getElementById("time").value;
-  h.innerText = greet(t);
+  h.innerText = msg;
 
 }
