@@ -22,5 +22,8 @@ return "Good Evening";
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(){
+  let h = document.getElementById("greeting");
+  let t = document.getElementById("time").value;
+  h.innerText = greet(t);
 
 }
