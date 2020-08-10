@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time){
-timeArray = time.split(':');
+let timeArray = time.split(':');
 if (timeArray[0]<12){
   return "Good Morning";
 }
