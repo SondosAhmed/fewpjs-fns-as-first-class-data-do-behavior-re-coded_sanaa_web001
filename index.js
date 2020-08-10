@@ -17,7 +17,7 @@ if (timeArray[0]<12){
 }
 else if (timeArray[0]<=17 && timeArray[0]>=12)
 return "Good Afternoon";
-else 
+else
 return "Good Evening";
 }
 /* Write your implementation of displayMessage() */
